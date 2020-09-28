@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head><style>
+                div{
+                    padding-top: 50px;
+                    padding-right: 300px;
+                    padding-bottom: 50px;
+                    padding-left: 500px;
+                    font-size: larger;
+                    font-style:inherit;
+                    background-image: url("mr_hangman.png");
+                }
+            </style>
+            <title>{{ title }}</title>
+    </head>
+    <body>
+       <div><h1>Hello Friend</h1> </div> 
+       <div class="login_div">
+            <form role="form" title="Login_form" name="login_form" method="POST" action="https://localhost:4000/hangman/login">
+                        <input type="text" name="login_username" placeholder="Enter username...">
+                        <input type="password" name="login_password" placeholder="Enter password...">
+                        <button type="submit" >ENTER</button>
+            </form>
+       </div>
+    </body>
+</html>
